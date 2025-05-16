@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mega Mart</h1>
+    <h3>Your Complete Shopping Destination</h3>
+    <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">Electronics</a></li>
+    <li><a href="">Fashion</a></li>
+    <li><a href="">Books</a></li>
+    <li><a href="">Cart</a></li>
+    <li><a href="">Contact</a></li>
+    </ul>
+    <h2>Product Search</h2>
+    <input type="text" name="text" id="text" required placeholder="Search Over 10,000 Products">
+    <input type="submit" value="Search">
+    <h2>Featured Products</h2>
+    <table border="1">
+        <tr>
+        <th>Product</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Stock</th>
+        <th>Action</th>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk_-VsA4PZt3sW8zk8ptdKdQMZERGGaq2ugA&s" width="100" alt="Wireless Headphones"><br><b>Wireless Headphones</b></td>
+            <td>Premium noice-canceling Bluthooh headphones <br><ul>
+            <li>40mm drivers</li>
+            <li>30-hour battery</li>
+            <li>IPX4 waterproof</li></ul></td>
+            <td><del>$199.99</del><br><ins>$149.99</ins></td>
+            <td>In Stock</td>
+            <td><input type="button" value="Add to Cart"><br>Available quantitcs:15</td>
+        </tr>
+        
+        <tr>
+            <td><img src="https://xcessorieshub.com/wp-content/uploads/2023/12/HAYLOU-Solar-Pro-1.png" alt="Smart Watch pro" width="200"><br><b>Smart Watch Pro</b></td>
+            <td>Advanced fitness tracking smartwatch <br><ol><li>Heart rate moniter</li>
+            <li>GPOS tracking</li>
+            <li>Water restitant</li></ol></td>
+            <td>89.99</td>
+            <td>Low Stock</td>
+            <td><input type="button" value="Add to Cart"></td>
+        </tr>
+    </table>
+    <h3>Creat New Account</h3>
+    <fieldset>
+        <legend>Personal Infomation</legend>
+        <label for="first name">First Name:</label><input type="text"required>
+        <label for="Last name">Last Name:</label><input type="text" required>
+        <label for="Date Of Birth">Date Of Birth:</label><input type="date" required>
+        <label for="Gender">Gender:</label>
+        <label for="Male">Male</label><input type="radio" class="gender" name="Gender" id="Male">
+        <label for="Female">Female</label><input type="radio" class="gender" name="Gender" id="Female">
+    </fieldset>
+    <fieldset>
+        <legend>Account Details</legend>
+        <label for="Email">Email:</label><input type="text" required>
+        <label for="Passward">Passward</label>:</label><input type="password" required>
+        <label for="Phone Number">Phone Number:</label><input type="text"required>
+        <label for="Subscribe to Newsletter:">Subscribe to Newsletter:</label> <input type="checkbox" name="Subscribe" id="Subscribe">
+    </fieldset>
+    <fieldset>
+        <legend>Shipping Address</legend>
+        <label for="Street area">Street Address:</label><textarea name="Street Address" id="Street Address"></textarea>
+        <label for="Country">Country:</label><input type="text"required>
+        <label for="ZTP Code">ZTP Code:</label><input type="text"required>
+    </fieldset>
+    <input type="submit" value="Create Account">
+    <input type="button" value="Clear Form">
+</body>
+<h3>Product Comparison</h3>
+<table border="1"><tr>
+    <th>Feature</th>
+    <th>Basic Model</th>
+    <th>Pro Model</th>
+    <th>Premium Model</th>
+</tr>
+<tr>
+    <td>Battery Life</td>
+    <td>8hours</td>
+    <td>12hours</td>
+    <td>24hours</td>
+</tr>
+<tr>
+    <td>Water Resistance</td>
+    <td>IPX4</td>
+    <td>IPX7</td>
+    <td>IP68</td>
+</tr>
+<tr>
+    <td>Warranty</td>
+    <td>1 year</td>
+    <td colspan="2">2 years</td>
+</tr>
+<tr>
+    <td colspan="4">*All price include VAT</td>
+</tr>
+</table>
+    <h3>Checkout Process</h3>
+    <fieldset>
+        <legend>payment information</legend>
+        <label for="Card Type:">Card Type:</label>
+        <input type="radio" name="Card Type" id="Visa"><label for="Visa">Visa</label>
+        <input type="radio" name="Card Type" id="MasterCard"><label for="MasterCard">MasterCard</label>
+        <input type="radio" name="Card Type" id="American Express"><label for="American Express">American Express</label><br>
+        <label for="Card Number">Card Number:</label><input type="text" name="Card Number" id="Card Number"required>
+        <label for="Expiry Date:">Expiry Date:</label><input type="month" name="Expiry Date" id="Expiry Date"required>
+    </fieldset>
+    <fieldset>
+        <legend>Order Summary</legend>
+        <table border="1">
+            <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            </tr>
+            <tr>
+                <td>Wireless headphones</td>
+                <td>2</td>
+                <td>$299,98</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>-</td>
+                <td>$15.00</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total:</td>
+                <td>$314.98</td>
+            </tr>
+        </table>
+    </fieldset><br>
+    <input type="submit" value="Complete Perchace" name="Complete Perchace" id="Complete Perchace">
+    <h3>Product Video</h3>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/ilMsRDfTlTI?si=oL7C_hY-CpNx3F7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen controls></iframe>
+    <h4>Product Audio Description</h4>
+     <audio src="audio.mp3"controls></audio><br>
+    <b><i><b>Contact Us</b></i></b><br><br>
+    <i>Email:</i><a href="mailto:muhammadnomankhan2002@gmail.com">muhammmadnomankhan2002@gmail.com</a><br><br>
+    <i>Phone:</i><a href="">+1(123)456-7890</a><br><br>
+    <i>Address: Old Muzaffarabd Colony <br>Landhi Karachi No.22</i><br><br>
+    <h4>Here is our location</h4>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.5371058611368!2d67.16384007401128!3d24.84549894585861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33a41c56bec25%3A0x8d2d62302faf98e8!2sJamia%20Darul%20Uloom%20Karachi!5e0!3m2!1sen!2s!4v1747339373188!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+    <b>Check out the latest video</b><br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6rRRAVSilss?si=nddG_Qk3I4evbKAx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+     
+    <b>Quick Links</b><br>
+    <ul><li><a href="">Term of Services</a></li>
+    <li>Privacy Policy</li>
+    <li>Return Policy</li></ul>
+    2023 Mega Mart All rights reseved <br>
+    Follow on<a href="">Social Media</a>
+</html>
