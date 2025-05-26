@@ -1,0 +1,19 @@
+h1{box-shadow: 8px 1px 10px rgb(68, 68, 181);background-color: rgb(244, 243, 242);}
+#your{opacity: 0.5;}
+.text{border:3px solid darkorange ;}
+.input{background-color: rgb(67, 79, 207); color: rgb(7, 7, 70);}
+.Product{background-color:orange ;}
+#Search{background-color: darkorange;color: white;}
+#table{border: 3px solid green;}
+#today{background-color: rgb(34, 222, 34);color: white; }
+#bro{background-color: darkgreen; color: white;}
+.button{background-color: green;color: white;}
+.legend{background-color: rgb(209, 60, 207); color: white;}
+.fieldset{border: 3px solid rgb(209, 60, 207) ;}
+#Comparison{border: 3px solid rgb(255, 119, 0);;}
+#model{background-color: rgb(255, 119, 0); color: white;}
+#price{background-color:rgb(240, 186, 138) ;}
+#contact{background-color: rgb(28, 25, 25); color: white;}
+#email{background-color: rgb(24, 9, 29); color: white;}
+a:visited{color: white;}
+#number:focus{border:2px solid green;}
